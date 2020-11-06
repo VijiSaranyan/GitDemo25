@@ -37,6 +37,7 @@ public class LoginIE {
 		System.setProperty("webdriver.chrome.driver", "C:/Users/Viji/Desktop/Selenium/chromedriver.exe");
 		WebDriver  driver=new ChromeDriver();
         driver.get("http://www.google.com"); 
+        System.out.println("Chrome is openeing");
 
 		//using xpath for the textbox in google search
 		driver.findElement(By.xpath("//input[@name='q']")).sendKeys("Testing");
